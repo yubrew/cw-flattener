@@ -1,0 +1,13 @@
+[package]
+name       = "cw-flattener"
+version    = "0.0.1"
+edition    = "2021"
+authors    = ["John Yu <john@noreply.stargaze.zone>"]
+homepage   = "https://github.com/yubrew"
+repository = "https://github.com/yubrew/cw-flatten"
+license    = "MIT"
+
+[dependencies]
+syn         = { version = "1.0", features = ["full", "visit"] }
+quote       = "1.0"
+proc-macro2 = "1.0"
