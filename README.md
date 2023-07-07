@@ -7,7 +7,7 @@ Flattens by combining all \*.rs files into one file. It does not import Cargo.to
 
 ## Config
 
-Copy paste repo into demo folder.
+Copy paste CosmWasm contract `src` folder into demo folder.
 `cargo run` to generate flattened source file to `output.rs`.
 
 Original inspiration https://github.com/poanetwork/solidity-flattener
