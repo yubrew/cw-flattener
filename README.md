@@ -1,9 +1,10 @@
-# Cosmwasm smart-contract flattened source file generation
+# Flatten Cosmwasm Smart Contracts into One File
 
 ## Utility to combine all source files to one flattened .rs file
 
-One long file provides full context for Large Language Model (LLM) ingestion
-Flattens by combining all \*.rs files into one file. It does not import Cargo.toml dependencies.
+Large Language Models (LLM) like GPT-4 ingest single files for better results.
+
+Flattens by combining all \*.rs files into one file. Does not import Cargo.toml dependencies.
 
 ## Config
 
