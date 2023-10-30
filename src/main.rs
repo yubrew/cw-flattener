@@ -48,7 +48,8 @@ fn main() -> std::io::Result<()> {
     let mut collector = Collector(Vec::new());
     // Precompile the regex outside of the loop
     let end_with_pattern = Regex::new(r"(\.rs)$").expect("Invalid regex pattern");
-    let exclude_pattern = Regex::new(r"(schema\.rs|tests\.rs)$").expect("Invalid regex pattern");
+    let exclude_pattern =
+        Regex::new(r"(error\.rs|schema\.rs|tests\.rs)$").expect("Invalid regex pattern");
 
     for entry in WalkDir::new("./demo") {
         let entry = entry.expect("Error walking the directory");
